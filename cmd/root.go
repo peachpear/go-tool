@@ -6,6 +6,7 @@ var rootCmd = &cobra.Command{}
 
 func init() {
 	rootCmd.AddCommand(wordCmd)
+	rootCmd.AddCommand(sqlCmd)
 }
 
 func Execute() error {
