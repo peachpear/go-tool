@@ -8,6 +8,7 @@ import (
 
 var expression string
 
+// go run main.go compute -e "1.4 * 2.1"
 var computeCmd = &cobra.Command{
 	Use:   "compute",
 	Short: "算数计算",
