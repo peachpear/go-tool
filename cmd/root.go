@@ -8,6 +8,7 @@ func init() {
 	rootCmd.AddCommand(wordCmd)
 	rootCmd.AddCommand(timeCmd)
 	rootCmd.AddCommand(sqlCmd)
+	rootCmd.AddCommand(computeCmd)
 }
 
 func Execute() error {
